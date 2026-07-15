@@ -4,7 +4,7 @@
 		"children": [
 			{
 				"name": "000",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Lucky Charm",
@@ -15,10 +15,11 @@
 			},
 			{
 				"name": "002",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Vjaya",
+						"access_rules": ["$biguppies"],
 						"chest_unopened_img": "images/items/vjaya.png",
 						"chest_opened_img": "images/items/vjaya_bw.png"
 					},
@@ -50,7 +51,7 @@
 			},
 			{
 				"name": "009",
-				"access_rules": [],
+				"access_rules": ["$biguppies", "glide,djump", "panther,djump", "kick,djump", "panther,kick"],
 				"sections": [
 					{
 						"name": "Lance",
@@ -92,7 +93,7 @@
 			},
 			{
 				"name": "00F",
-				"access_rules": [],
+				"access_rules": ["$widies"],
 				"sections": [
 					{
 						"name": "Potion",
@@ -117,7 +118,7 @@
 			},
 			{
 				"name": "019",
-				"access_rules": [],
+				"access_rules": ["fly"],
 				"sections": [
 					{
 						"name": "Yasutsuna",
@@ -139,7 +140,7 @@
 			},
 			{
 				"name": "026",
-				"access_rules": [],
+				"access_rules": ["$biguppies"],
 				"sections": [
 					{
 						"name": "Armor of Fire",
@@ -148,6 +149,7 @@
 					},
 					{
 						"name": "Potion",
+						"access_rules": ["$smalluppies"],
 						"chest_unopened_img": "images/items/potion.png",
 						"chest_opened_img": "images/items/potion_bw.png"
 					}
@@ -219,6 +221,7 @@
 				"sections": [
 					{
 						"name": "High Mind Up",
+						"access_rules": ["$smalluppies", "kick"],
 						"chest_unopened_img": "images/items/high_mind_up.png",
 						"chest_opened_img": "images/items/high_mind_up_bw.png"
 					},
@@ -234,6 +237,7 @@
 					},
 					{
 						"name": "High Potion",
+						"access_rules": ["$smalluppies","panther,kick","glide,kick"],
 						"chest_unopened_img": "images/items/high_potion.png",
 						"chest_opened_img": "images/items/high_potion_bw.png"
 					},
@@ -246,7 +250,7 @@
 			},
 			{
 				"name": "105",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$100",
@@ -257,7 +261,7 @@
 			},
 			{
 				"name": "106",
-				"access_rules": [],
+				"access_rules": ["$biguppies"],
 				"sections": [
 					{
 						"name": "Tallhammer",
@@ -383,7 +387,7 @@
 			},
 			{
 				"name": "20A",
-				"access_rules": [],
+				"access_rules": ["$smalluppies","panther,slide"],
 				"sections": [
 					{
 						"name": "Broadsword",
@@ -474,7 +478,7 @@
 			},
 			{
 				"name": "306",
-				"access_rules": [],
+				"access_rules": ["fly"],
 				"sections": [
 					{
 						"name": "Cutall",
@@ -485,7 +489,7 @@
 			},
 			{
 				"name": "307",
-				"access_rules": [],
+				"access_rules": ["$smalluppies","panther,kick"],
 				"sections": [
 					{
 						"name": "Mana Prism",
@@ -496,7 +500,7 @@
 			},
 			{
 				"name": "308",
-				"access_rules": [],
+				"access_rules": ["fly","slide,djump","zip,slide"],
 				"sections": [
 					{
 						"name": "High Potion",
@@ -568,7 +572,7 @@
 			},
 			{
 				"name": "403",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "High Mind Up",
@@ -579,7 +583,7 @@
 			},
 			{
 				"name": "405",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "High Potion",
@@ -601,7 +605,7 @@
 			},
 			{
 				"name": "40A",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Hrunting",
@@ -624,7 +628,7 @@
 			},
 			{
 				"name": "412",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Mind Up",
@@ -651,7 +655,7 @@
 			},
 			{
 				"name": "504",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$1,000 Left",
@@ -676,7 +680,7 @@
 			},
 			{
 				"name": "509",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$500",
@@ -687,7 +691,7 @@
 			},
 			{
 				"name": "50A",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$500",
@@ -698,7 +702,7 @@
 			},
 			{
 				"name": "50D",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$500",
@@ -754,7 +758,7 @@
 			},
 			{
 				"name": "613",
-				"access_rules": [],
+				"access_rules": ["fly"],
 				"sections": [
 					{
 						"name": "Death's Sickle",
@@ -765,7 +769,7 @@
 			},
 			{
 				"name": "615",
-				"access_rules": [],
+				"access_rules": ["djump"],
 				"sections": [
 					{
 						"name": "$2,000",
@@ -776,7 +780,7 @@
 			},
 			{
 				"name": "617",
-				"access_rules": [],
+				"access_rules": ["fly"],
 				"sections": [
 					{
 						"name": "Death's Robe",
@@ -814,7 +818,7 @@
 			},
 			{
 				"name": "701",
-				"access_rules": [],
+				"access_rules": ["$divies"],
 				"sections": [
 					{
 						"name": "Tasty Meat",
@@ -836,7 +840,7 @@
 			},
 			{
 				"name": "703",
-				"access_rules": [],
+				"access_rules": ["$divies"],
 				"sections": [
 					{
 						"name": "Rahab's Sword",
@@ -869,7 +873,7 @@
 			},
 			{
 				"name": "70C",
-				"access_rules": [],
+				"access_rules": ["$slidies"],
 				"sections": [
 					{
 						"name": "Mana Prism",
@@ -880,7 +884,7 @@
 			},
 			{
 				"name": "70E",
-				"access_rules": [],
+				"access_rules": ["slide, dive"],
 				"sections": [
 					{
 						"name": "Super Potion",
@@ -902,7 +906,7 @@
 			},
 			{
 				"name": "711",
-				"access_rules": [],
+				"access_rules": ["$divies, $biguppies"],
 				"sections": [
 					{
 						"name": "Milican's Sword",
@@ -944,7 +948,7 @@
 			},
 			{
 				"name": "719",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "$1,000",
@@ -953,6 +957,7 @@
 					},
 					{
 						"name": "Handgun",
+						"access_rules": [],
 						"chest_unopened_img": "images/items/handgun.png",
 						"chest_opened_img": "images/items/handgun_bw.png"
 					}
@@ -971,7 +976,7 @@
 			},
 			{
 				"name": "71D",
-				"access_rules": [],
+				"access_rules": ["$biguppies, $divies, wwalk"],
 				"sections": [
 					{
 						"name": "$2,000",
@@ -982,7 +987,7 @@
 			},
 			{
 				"name": "71F",
-				"access_rules": [],
+				"access_rules": ["$divies"],
 				"sections": [
 					{
 						"name": "Rune Ring",
@@ -993,7 +998,7 @@
 			},
 			{
 				"name": "720",
-				"access_rules": [],
+				"access_rules": ["$divies"],
 				"sections": [
 					{
 						"name": "Osafune",
@@ -1175,7 +1180,7 @@
 			},
 			{
 				"name": "901",
-				"access_rules": [],
+				"access_rules": ["fly"],
 				"sections": [
 					{
 						"name": "Mana Prism",
@@ -1191,7 +1196,7 @@
 			},
 			{
 				"name": "902",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Gungner",
@@ -1253,7 +1258,7 @@
 			},
 			{
 				"name": "917",
-				"access_rules": [],
+				"access_rules": ["$biguppies"],
 				"sections": [
 					{
 						"name": "Kaladbolg",
@@ -1280,7 +1285,7 @@
 			},
 			{
 				"name": "A06",
-				"access_rules": [],
+				"access_rules": ["$smalluppies"],
 				"sections": [
 					{
 						"name": "Joyeuse",
